@@ -124,4 +124,4 @@ class Xoxo(commands.Cog):
 
 
 def setup(bot: commands.Bot):
-    bot.add_cog()
+    bot.add_cog(Xoxo(bot))
