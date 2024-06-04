@@ -2,7 +2,7 @@ import disnake
 from disnake.ext import commands
 
 token = ""
-
+print('Hello Python World')
 intents = disnake.Intents.default()
 intents.message_content = True
 
